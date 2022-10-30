@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero {
+    position: relative;
+    width: 100%;
+
+}
+nav {
+    background-color:cadetblue;
+    width: 100%;
+    height: 12vh;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    width: 86%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style: none;
+    margin: 10px 20px;
+    padding: 5px 0px;
+}
+a:hover ::after{
+    width: 100%;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: wheat;
+    height: 3px;
+    width:0;
+    left:0;
+    bottom: -10px;
+    transition: 0.3s;
+
+}
+a:hover{
+    color: #ffffff;
+}
+a:hover:after{
+    width: 100%;
+} 
+
+ .hed{
+    text-align: center;
+    color: red;
+    position: relative;
+    padding: 12px;
+    margin: 12px;
+    font-size: 25px;
+} 
+.para{
+    display: flex;
+    align-items: center;
+    color:#000;
+    height:12vh;
+    margin: 20px;
+    padding: 10px;
+}
+.link{
+    color: #000;
+}
+button{
+    background-color: red;
+    height: 80px;
+    width: 150px;
+    font-size: 30px;
+    color: #000;
+    
+}
+footer{
+    background-color:cadetblue;
+    height: 25vh;
+    width: 100%;
+   
+}
+#size{
+    padding-bottom: 2em;
+    padding-top: 4em;
+}
